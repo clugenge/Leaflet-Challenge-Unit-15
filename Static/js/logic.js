@@ -1,5 +1,5 @@
 //Store our API endpoint as Query URL.
-let queryURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+let queryURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
 
 d3.json(queryURL).then(function (data) {
