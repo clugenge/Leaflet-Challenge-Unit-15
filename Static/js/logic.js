@@ -2,7 +2,7 @@
 let queryURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
 
 
-d3.json(queryUrl).then(function (data) {
+d3.json(queryURL).then(function (data) {
   
   createFeatures(data.features);
 });
